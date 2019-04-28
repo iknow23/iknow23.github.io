@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Playfair Display', Arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+
+  clip: rect(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.container-smaller {
+  width: 1056px;
+  margin: 0 auto;
+}
+
+.page-header {
+  padding-top: 92px;
+  padding-bottom: 180px;
+}
+
+.main-navigation {
+	display: flex;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  width: 430px;
+  display: flex;
+  justify-content: flex-end;
+
+  list-style: none;
+}
+
+.navigation-item:not(:last-of-type) {
+  margin-right: 69px;
+}
+
+.navigation-link,
+.navigation-link-current {
+  text-transform: uppercase;
+}
+
+.navigation-link-current {
+  color: #111111;
+}
+
+.navigation-link {
+  color: #aaaaaa;
+}
+
+.main-navigation {
+  margin-bottom: 171px;
+}
+
+h1.main-title {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  
+  font-size: 70px;
+  line-height: 100px;
+  font-weight: 300;
+}
+
+p.title-description {
+  width: 600px;
+  margin: 0 auto;
+
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #999999;
+}
+
+.reviews {
+  margin-bottom: 172px;
+}
+
+.reviews-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+
+  list-style: none;
+}
+
+.recent-reviews {
+  width: 400px;
+  text-align: left;
+}
+
+.reviews-list h3 {
+  margin: 0;
+
+  font-size: 36px;
+  line-height: 100px;
+  font-weight: 300;
+}
+
+.recent-reviews blockquote {
+  margin: 0;
+  margin-bottom: 50px;
+  width: 250px;
+
+  font-size: 16px;
+  font-style: italic;
+  line-height: 31px;
+  color: #999999;
+  
+  border-bottom: 1px solid #e7e7e7;
+}
+
+blockquote p {
+  margin-bottom: 5px;
+}
+
+blockquote:last-of-type p {
+  margin-bottom: 8px;
+}
+
+.recent-reviews cite {
+  margin-left: 4px;
+
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+.reviews-main-video iframe {
+  margin-top: 11px;
+  margin-left: -116px;
+}
+
+.user-videos {
+  text-align: left;
+  width: 281px;
+}
+
+.user-videos iframe:first-of-type {
+  margin-bottom: 28px;
+}
+
+.instructor {
+  margin-bottom: 222px;
+}
+
+.instructor-list {
+	padding: 0;
+}
+
+.instructor h2 {
+  margin: 0;
+  margin-bottom: 54px;
+
+  font-size: 50px;
+  line-height: 100px;
+  font-weight: 300;
+}
+
+.instructor-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+
+  list-style: none;
+}
+
+.instructor-item:not(:last-of-type) {
+  margin-right: 90px;
+}
+
+.instructor-image {
+	margin: 0;
+}
+
+.instructor-name {
+  margin: 0;
+  margin-left: -5px;
+  margin-bottom: -25px;
+
+  font-size: 30px;
+  line-height: 88px;
+}
+
+.instructor-description {
+  margin: 0;
+  margin-left: -2px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  color: #2ab738;
+}
+
+.blog-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.blog h2 {
+  margin: 0;
+  margin-bottom: 70px;
+
+  font-size: 50px;
+  line-height: 100px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.blog-item figure {
+  margin: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-item figure:first-of-type {
+  margin-bottom: 191px;
+}
+
+.blog-item:first-of-type figcaption {
+  padding: 52px 0px 0px 80px;
+}
+
+.blog-item:last-of-type figcaption {
+  padding-top: 55px;
+}
+
+.blog-title {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.blog-description {
+  margin-bottom: 62px;
+  padding-right: 50px;
+
+  font-size: 16px;
+  line-height: 31px;
+  font-weight: 400;
+
+  color: #444444;
+  letter-spacing: 1px;
+}
+
+.blog-link {
+  padding: 15px 32px;
+
+  font-weight: 700;
+
+  color: #000000;
+  border: 1px solid #e5e5e5;
+}
+
+.blog-item:last-of-type figure {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.blog {
+  margin-bottom: 229px;
+}
+
+.check-in {
+  margin-bottom: 146px;
+}
+
+.check-in p {
+  margin-bottom: 60px;
+
+  font-size: 50px;
+  line-height: 100px;
+}
+
+.check-in-link {
+  padding: 16px 44px;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  background-color: transparent;
+  border: 1px solid #000000;
+  
+  cursor: pointer;
+}
+
+.page-footer p {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.page-footer {
+  padding-top: 24px;
+  padding-left: 268px;
+  border-top: 1px solid #f2ede7;
+}
+
+.company-name {
+  font-size: 24px;
+  line-height: 19px;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 28px;
+  color: #9f9f9f;
+}
