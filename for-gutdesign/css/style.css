@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
   font-family: 'Playfair Display', Arial, serif;
   font-size: 16px;
@@ -28,8 +30,11 @@ a {
   margin: 0 auto;
 }
 
-h1, h2 {
-  color: #FF7F27;
+main {
+  padding: 5px 25px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 span {
